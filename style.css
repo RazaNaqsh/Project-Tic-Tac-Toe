@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap");
 *,
 *::after,
 *::before {
@@ -9,6 +10,16 @@
 }
 body {
 	margin: 0;
+}
+.header {
+	font-family: "Rubik Marker Hatch", cursive;
+	position: absolute;
+	margin-top: 5rem;
+	font-size: 1.5em;
+	width: 100vw;
+	height: auto;
+	display: flex;
+	justify-content: center;
 }
 .board {
 	width: 100vw;
